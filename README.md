@@ -1,5 +1,4 @@
-# shdimir-gmail.com
-Haskell integral calculator <br>
+# Haskell integral calculator
 Compilation: <br>
 cabal install --only-dependencies <br>
 cabal new-configure --enable-tests <br>
