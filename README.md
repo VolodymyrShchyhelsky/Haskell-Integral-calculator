@@ -1,6 +1,12 @@
 # shdimir-gmail.com
 Haskell integral calculator
-
-For rebuild: cabal new-build
-.exe path: dist-newstyle\build\x86_64-windows\ghc-8.6.5\Lab1-0.1.0.0\x\Lab1\build\Lab1\Lab1.exe
-For running on multicores: Lab1.exe +RTS -Nx (where N = number of cores)
+Compilation: <br>
+cabal install --only-dependencies <br>
+cabal new-configure --enable-tests <br>
+cabal new-build <br>
+For test running: <br>
+cabal new-test <br>
+For execution: <br>
+cabal run <br>
+Flags for running on multicores: <br>
++RTS -Nx (where N = number of cores) <br>
